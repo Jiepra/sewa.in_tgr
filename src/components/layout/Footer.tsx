@@ -64,9 +64,14 @@ export default function Footer() {
               )}
               <div className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-primary" />
-                <span className="leading-relaxed">
+                <a
+                  href="https://maps.google.com/?q=Jalan+Taman+Kota+Jayakarta,+Sukaasih,+Kp.+Picung,+RT.05/RW.05,+Sukaasih,+Kec.+Ps.+Kemis,+Kabupaten+Tangerang,+Banten+15560"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary hover:underline transition-all leading-relaxed"
+                >
                   Jalan Taman Kota Jayakarta, Sukaasih, Kp. Picung, RT.05/RW.05, Sukaasih, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15560
-                </span>
+                </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Clock className="h-4 w-4 shrink-0 text-primary" />
@@ -93,20 +98,6 @@ export default function Footer() {
               </ul>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Payment info strip */}
-      <div className="border-t border-border bg-muted/30">
-        <div className="container-page py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Pembayaran:</span>
-            <span className="rounded border border-border bg-background px-2 py-0.5 font-mono font-semibold text-foreground">
-              BCA 7435614914
-            </span>
-            <span>a/n MUHAMMAD SAHWAL</span>
-          </div>
-          <p>DP minimal 50% dari total sewa</p>
         </div>
       </div>
 
