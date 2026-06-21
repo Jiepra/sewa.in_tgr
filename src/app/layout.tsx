@@ -15,18 +15,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "sewa_in.tgr — Sewa Alat Gunung & Camping Tegallalang",
+    default: "sewa_in.tgr — Sewa Alat Gunung & Camping Tangerang",
     template: "%s | sewa_in.tgr",
   },
   description:
-    "Sewa alat gunung dan camping berkualitas di Tegallalang. Tenda, sleeping bag, carrier, kompor, dan perlengkapan outdoor lainnya. Booking mudah, harga terjangkau.",
+    "Sewa alat gunung dan camping berkualitas di Pasar Kemis, Kabupaten Tangerang. Tenda, sleeping bag, carrier, kompor, dan perlengkapan outdoor lainnya. Booking mudah, harga terjangkau.",
   keywords: [
     "sewa alat gunung",
     "sewa tenda",
     "sewa carrier",
     "camping gear",
     "outdoor rental",
-    "tegallalang",
+    "tangerang",
+    "pasar kemis",
     "sewa_in",
   ],
   authors: [{ name: "sewa_in.tgr" }],

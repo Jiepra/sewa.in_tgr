@@ -17,9 +17,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "sewa_in.tgr — Sewa Alat Gunung & Camping Tegallalang",
+  title: "sewa_in.tgr — Sewa Alat Gunung & Camping Tangerang",
   description:
-    "Sewa alat gunung dan camping berkualitas di Tegallalang. Tenda, sleeping bag, carrier, kompor, dan perlengkapan outdoor lainnya. Booking mudah, harga terjangkau, DP 50%.",
+    "Sewa alat gunung dan camping berkualitas di Pasar Kemis, Kabupaten Tangerang. Tenda, sleeping bag, carrier, kompor, dan perlengkapan outdoor lainnya. Booking mudah, harga terjangkau, DP 50%.",
 };
 
 // ─────────────────────────────────────────────────────────────
@@ -133,7 +133,7 @@ export default function HomePage() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-1.5 text-sm font-medium text-white/90 ring-1 ring-white/20">
               <Mountain className="h-4 w-4" />
-              Penyewaan Alat Gunung &amp; Camping · Tegallalang
+              Penyewaan Alat Gunung &amp; Camping · Tangerang
             </div>
 
             {/* Headline */}
@@ -146,7 +146,7 @@ export default function HomePage() {
 
             <p className="text-lg text-white/80 max-w-xl leading-relaxed">
               Sewa alat gunung dan camping di{" "}
-              <strong className="text-white">sewa_in.tgr</strong>. Booking
+              <strong className="text-white">sewa_in.tgr (Pasar Kemis, Tangerang)</strong>. Booking
               online, hitung harga otomatis, bayar DP, langsung ambil. Sesederhana itu.
             </p>
 
@@ -311,7 +311,7 @@ export default function HomePage() {
                 Dipercaya Ratusan Pendaki &amp; Camper
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Dari Tegallalang, kami melayani para pecinta alam yang ingin
+                Dari basecamp kami di Pasar Kemis, Tangerang, kami melayani para pecinta alam yang ingin
                 pengalaman outdoor tanpa harus membeli peralatan mahal. Alat
                 terawat, proses rapi, harga masuk akal.
               </p>

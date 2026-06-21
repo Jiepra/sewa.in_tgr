@@ -195,7 +195,7 @@ export default function BookingForm({
               </Label>
               <Textarea
                 id="address"
-                placeholder="Contoh: Jl. Raya Tegallalang No. 10, Gianyar, Bali"
+                placeholder="Contoh: Jalan Taman Kota Jayakarta, Sukaasih, Kp. Picung, RT.05/RW.05, Kec. Ps. Kemis, Tangerang, Banten 15560"
                 rows={3}
                 {...register("address")}
                 aria-invalid={!!errors.address}

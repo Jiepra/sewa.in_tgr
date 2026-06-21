@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Mountain, Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
@@ -44,8 +45,13 @@ export default function Navbar() {
           className="flex items-center gap-2.5 font-bold text-primary hover:opacity-90 transition-opacity"
           id="nav-brand"
         >
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <Mountain className="h-4 w-4" />
+          <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border">
+            <Image
+              src="/logo.png"
+              alt="sewa_in.tgr Logo"
+              fill
+              className="object-cover"
+            />
           </div>
           <span className="text-lg">sewa_in.tgr</span>
         </Link>

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Mountain, Phone, MapPin, Clock } from "lucide-react";
+import Image from "next/image";
+import { Phone, MapPin, Clock } from "lucide-react";
 
 const footerLinks = [
   {
@@ -32,18 +33,23 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-2.5 font-bold text-primary">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-                <Mountain className="h-5 w-5" />
+              <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border">
+                <Image
+                  src="/logo.png"
+                  alt="sewa_in.tgr Logo"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <span className="text-xl">sewa_in.tgr</span>
             </Link>
-            <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
+            <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
               Penyewaan alat gunung dan camping berkualitas. Lengkap, terjangkau,
               dan mudah diakses. Petualanganmu dimulai dari sini.
             </p>
 
             {/* Contact info */}
-            <div className="space-y-2 text-sm">
+            <div className="space-y-3 text-sm">
               {waNumber && (
                 <a
                   href={`https://wa.me/${waNumber}`}
@@ -57,12 +63,14 @@ export default function Footer() {
                 </a>
               )}
               <div className="flex items-start gap-2 text-muted-foreground">
-                <MapPin className="h-4 w-4 shrink-0 mt-0.5" />
-                <span>Tegallalang, Bali</span>
+                <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-primary" />
+                <span className="leading-relaxed">
+                  Jalan Taman Kota Jayakarta, Sukaasih, Kp. Picung, RT.05/RW.05, Sukaasih, Kec. Ps. Kemis, Kabupaten Tangerang, Banten 15560
+                </span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
-                <Clock className="h-4 w-4 shrink-0" />
-                <span>08.00 – 20.00 WITA</span>
+                <Clock className="h-4 w-4 shrink-0 text-primary" />
+                <span>08.00 – 20.00 WIB</span>
               </div>
             </div>
           </div>
