@@ -65,7 +65,7 @@ export default function Footer() {
               <div className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-primary" />
                 <a
-                  href="https://maps.google.com/?q=Jalan+Taman+Kota+Jayakarta,+Sukaasih,+Kp.+Picung,+RT.05/RW.05,+Sukaasih,+Kec.+Ps.+Kemis,+Kabupaten+Tangerang,+Banten+15560"
+                  href="https://www.google.com/maps/search/?api=1&query=Sewa.in_tgr,+Jalan+Taman+Kota+Jayakarta,+Sukaasih,+Kec.+Ps.+Kemis,+Kabupaten+Tangerang,+Banten+15560"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary hover:underline transition-all leading-relaxed"
